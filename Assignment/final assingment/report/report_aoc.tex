@@ -1,0 +1,247 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage[brazil]{babel}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{float}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{hyperref}
+
+\geometry{margin=2.5cm}
+
+\title{Implementação de Detecção de Overflow em uma ULA MIPS}
+\author{Nome do Aluno}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+Este trabalho apresenta a implementação do mecanismo de detecção de overflow em uma Unidade Lógica e Aritmética (ULA) baseada na arquitetura MIPS. A ULA desenvolvida suporta as operações lógicas AND, OR e NOR, além das operações aritméticas ADD, SUB e da operação de comparação SLT (Set Less Than). O principal objetivo foi implementar e validar a lógica responsável por identificar situações de overflow durante operações aritméticas com números representados em complemento de dois.
+\end{abstract}
+
+\tableofcontents
+\newpage
+
+\section{Introdução}
+
+A Unidade Lógica e Aritmética (ULA) é um dos principais componentes de um processador, sendo responsável pela execução de operações matemáticas e lógicas. Na arquitetura MIPS, a ULA desempenha papel fundamental na execução de instruções do tipo R e em diversas operações realizadas durante o ciclo de execução de instruções.
+
+Durante operações aritméticas, especialmente soma e subtração de números inteiros com sinal, pode ocorrer uma condição denominada \textit{overflow}. Essa condição ocorre quando o resultado obtido excede a faixa de representação disponível para o número de bits utilizado.
+
+O objetivo deste trabalho consiste em implementar um sistema capaz de detectar automaticamente situações de overflow em uma ULA compatível com a arquitetura MIPS.
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+Implementar a detecção de overflow em uma ULA MIPS capaz de executar operações lógicas e aritméticas.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+\item Implementar as operações AND, OR e NOR.
+\item Implementar as operações ADD e SUB.
+\item Implementar a operação SLT (Set Less Than).
+\item Desenvolver a lógica de detecção de overflow para operações aritméticas.
+\item Validar o funcionamento através de casos de teste.
+\end{itemize}
+
+\section{Fundamentação Teórica}
+
+\subsection{Arquitetura MIPS}
+
+A arquitetura MIPS é uma arquitetura RISC (\textit{Reduced Instruction Set Computer}) amplamente utilizada no ensino de arquitetura de computadores devido à sua simplicidade e organização modular.
+
+A ULA recebe dois operandos de entrada e um conjunto de sinais de controle que determinam qual operação será executada.
+
+\subsection{Operações Implementadas}
+
+A ULA desenvolvida suporta as seguintes operações:
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|c|c|}
+\hline
+Operação & Descrição \
+\hline
+AND & Conjunção lógica bit a bit \
+OR & Disjunção lógica bit a bit \
+ADD & Soma aritmética \
+SUB & Subtração aritmética \
+NOR & Negação da operação OR \
+SLT & Set Less Than \
+\hline
+\end{tabular}
+\caption{Operações suportadas pela ULA}
+\end{table}
+
+\subsection{Overflow em Complemento de Dois}
+
+Em sistemas digitais, números inteiros com sinal são geralmente representados utilizando complemento de dois.
+
+O overflow ocorre quando:
+
+\begin{itemize}
+\item Dois números positivos são somados e produzem resultado negativo.
+\item Dois números negativos são somados e produzem resultado positivo.
+\end{itemize}
+
+Matematicamente:
+
+[
+Overflow = (A_{31} = B_{31}) \land (Result_{31} \neq A_{31})
+]
+
+onde:
+
+\begin{itemize}
+\item $A_{31}$ representa o bit de sinal do primeiro operando;
+\item $B_{31}$ representa o bit de sinal do segundo operando;
+\item $Result_{31}$ representa o bit de sinal do resultado.
+\end{itemize}
+
+Outra forma equivalente consiste em analisar o carry de entrada e saída do bit mais significativo:
+
+[
+Overflow = Carry_{in} \oplus Carry_{out}
+]
+
+\section{Metodologia}
+
+O desenvolvimento foi realizado seguindo as etapas:
+
+\begin{enumerate}
+\item Implementação das operações lógicas.
+\item Implementação das operações aritméticas.
+\item Implementação da operação SLT.
+\item Desenvolvimento da lógica de detecção de overflow.
+\item Elaboração de casos de teste.
+\end{enumerate}
+
+\section{Implementação}
+
+A ULA recebe como entrada dois operandos de 32 bits e um sinal de controle responsável por selecionar a operação desejada.
+
+Além da saída principal (\textit{Result}), foi adicionado um sinal denominado \textit{Overflow}, responsável por indicar quando ocorre estouro de capacidade durante operações aritméticas.
+
+A lógica de overflow é ativada apenas durante as operações ADD e SUB, permanecendo desabilitada para operações lógicas e para a operação SLT.
+
+\subsection{Fluxo de Funcionamento}
+
+\begin{enumerate}
+\item Recebimento dos operandos A e B.
+\item Seleção da operação através do sinal de controle.
+\item Execução da operação.
+\item Verificação da condição de overflow.
+\item Atualização do sinal Overflow.
+\end{enumerate}
+
+\section{Resultados}
+
+Foram realizados testes utilizando diferentes combinações de operandos.
+
+\subsection{Caso 1: Overflow Positivo}
+
+\begin{center}
+2147483647 + 1
+\end{center}
+
+Resultado obtido:
+
+\begin{center}
+-2147483648
+\end{center}
+
+Overflow detectado:
+
+\begin{center}
+Sim
+\end{center}
+
+\subsection{Caso 2: Overflow Negativo}
+
+\begin{center}
+-2147483648 + (-1)
+\end{center}
+
+Resultado obtido:
+
+\begin{center}
+2147483647
+\end{center}
+
+Overflow detectado:
+
+\begin{center}
+Sim
+\end{center}
+
+\subsection{Caso 3: Soma Sem Overflow}
+
+\begin{center}
+100 + 50
+\end{center}
+
+Resultado obtido:
+
+\begin{center}
+150
+\end{center}
+
+Overflow detectado:
+
+\begin{center}
+Não
+\end{center}
+
+\subsection{Caso 4: Operação Lógica}
+
+\begin{center}
+AND
+\end{center}
+
+Overflow detectado:
+
+\begin{center}
+Não
+\end{center}
+
+\section{Discussão}
+
+Os testes realizados demonstraram que o mecanismo implementado identifica corretamente situações de overflow em operações de soma e subtração. Além disso, verificou-se que operações puramente lógicas não geram sinalização incorreta de overflow.
+
+A implementação mostrou-se compatível com o comportamento esperado para a arquitetura MIPS, contribuindo para a confiabilidade da execução de operações aritméticas.
+
+\section{Conclusão}
+
+Neste trabalho foi desenvolvida uma ULA baseada na arquitetura MIPS contendo as operações AND, OR, ADD, SUB, NOR e SLT. Adicionalmente, foi implementado um mecanismo de detecção de overflow para operações aritméticas utilizando representação em complemento de dois.
+
+Os resultados obtidos demonstraram o correto funcionamento da lógica de detecção, validando a implementação proposta. O projeto permitiu aplicar conceitos fundamentais de arquitetura de computadores, lógica digital e representação numérica em sistemas computacionais.
+
+\section{Referências}
+
+\begin{thebibliography}{9}
+
+\bibitem{patterson}
+Patterson, D. A.; Hennessy, J. L.
+\textit{Computer Organization and Design: The Hardware/Software Interface}.
+Morgan Kaufmann.
+
+\bibitem{mano}
+Mano, M. M.
+\textit{Digital Design}.
+Pearson.
+
+\bibitem{mips}
+MIPS Technologies.
+\textit{MIPS32 Architecture for Programmers}.
+
+\end{thebibliography}
+
+\end{document}

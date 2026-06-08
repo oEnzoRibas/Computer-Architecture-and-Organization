@@ -1,13 +1,13 @@
 # Fdb version 4
-["bibtex build/report_aoc"] 1780959748.8299 "build/report_aoc.aux" "build/report_aoc.bbl" "build/report_aoc" 1780959753.08482 0
+["bibtex build/report_aoc"] 1780961175.78906 "build/report_aoc.aux" "build/report_aoc.bbl" "build/report_aoc" 1780961179.74024 0
   "./refs.bib" 1780959672 1071 a9bae7b8536947473181486ce83dac16 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/bibtex/bst/ieeetran/IEEEtran.bst" 1440622569 57748 7c8250ecf02814ce6ddc0cdbb63df1dd ""
-  "build/report_aoc.aux" 1780959751 6464 ff2fa770984beb0fbb6460d229f556b2 "pdflatex"
+  "build/report_aoc.aux" 1780961178 6464 ff2fa770984beb0fbb6460d229f556b2 "pdflatex"
   (generated)
   "build/report_aoc.bbl"
   "build/report_aoc.blg"
   (rewritten before read)
-["pdflatex"] 1780959749.23372 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex" "build/report_aoc.pdf" "report_aoc" 1780959753.08566 0
+["pdflatex"] 1780961176.22262 "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex" "build/report_aoc.pdf" "report_aoc" 1780961179.74106 0
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map" 1780954240 360448 731ae4642188da39b5a97047d41cf13d ""
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbi1440.pk" 1780953638 52860 ffe95061beae504956e7c3ebf359d31b ""
   "C:/Users/maria/AppData/Local/MiKTeX/fonts/pk/ljfour/jknappen/ec/dpi600/ecbx1095.pk" 1769136128 28976 3e2dc5c5fbfd30180f8ab2f0180f791a ""
@@ -130,11 +130,11 @@
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/tools/array.sty" 1761901070 15651 9d7c62df82cb29a555c00550babfe364 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/url/url.sty" 1388490452 12796 8edb7d69a20b857904dd0ea757c14ec9 ""
   "C:/Users/maria/AppData/Local/Programs/MiKTeX/tex/latex/xcolor/xcolor.sty" 1729265222 55384 b454dec21c2d9f45ec0b793f0995b992 ""
-  "build/report_aoc.aux" 1780959751 6464 ff2fa770984beb0fbb6460d229f556b2 "pdflatex"
-  "build/report_aoc.bbl" 1780959749 1436 54ad490671099568b3b066092ddd5ad1 "bibtex build/report_aoc"
-  "build/report_aoc.out" 1780959751 4854 03caa435f4d5047826dcab0cd1473881 "pdflatex"
-  "build/report_aoc.toc" 1780959751 2520 640f6835ca325f39b24aa8b0f51b79ea "pdflatex"
-  "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex" 1780959748 17524 85a41c859bce18a3b0b5f78b643aa7b0 ""
+  "build/report_aoc.aux" 1780961178 6464 ff2fa770984beb0fbb6460d229f556b2 "pdflatex"
+  "build/report_aoc.bbl" 1780961176 1436 54ad490671099568b3b066092ddd5ad1 "bibtex build/report_aoc"
+  "build/report_aoc.out" 1780961178 4854 03caa435f4d5047826dcab0cd1473881 "pdflatex"
+  "build/report_aoc.toc" 1780961178 2520 640f6835ca325f39b24aa8b0f51b79ea "pdflatex"
+  "c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex" 1780961174 17513 86476c33ce686e89470e1802176eb367 ""
   "media/case1.png" 1780957301 23134 b7d93c6972b0cb726796ab4a8fe537f0 ""
   "media/case2.png" 1780957904 23678 33fdd41eed121f2da77b26e2d15196bd ""
   "media/case3.png" 1780957856 23121 f451d03e1c42bab39569391c2cbeffb1 ""
@@ -145,7 +145,7 @@
   "media/slt.png" 1780958333 23603 931deaaab624d36542a3cba271c6da4d ""
   "media/slt2.png" 1780958595 15343 e3ba0564b9b769eade0390c133082ba2 ""
   "media/ula.png" 1780955235 22717 31a3fc53a0e2434c7086091ce14152b4 ""
-  "report_aoc.tex" 1780959748 17524 85a41c859bce18a3b0b5f78b643aa7b0 ""
+  "report_aoc.tex" 1780961174 17513 86476c33ce686e89470e1802176eb367 ""
   (generated)
   "build/report_aoc.aux"
   "build/report_aoc.log"

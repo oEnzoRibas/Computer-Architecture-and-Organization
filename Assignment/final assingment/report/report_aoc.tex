@@ -343,7 +343,7 @@ O resultado está dentro da faixa representável. Overflow não foi ativado.
 
 A operação SLT compara $A$ e $B$ e define o resultado como 1 se $A < B$, ou 0 caso contrário. Ela é implementada por meio da subtração $A - B$ e análise do resultado. O overflow é relevante para SLT, pois um resultado incorreto devido a overflow pode levar a uma comparação errada. 
 No caso testado, $A = -2$ e $B = 7$, portanto $A < B$ é verdadeiro, e o resultado esperado é 1. A operação $-2 - 7$ resulta em $-9$, que é menor que zero, confirmando a condição de SLT. Entretanto o sinal de overflow é ativado, pois o resultado é não é representável em 4 bits. 
-Apesar disso, a lógica de SLT deve considerar o resultado da subtração e não apenas o overflow, garantindo que o resultado final seja correto (1) mesmo com overflow, mostrado na figura \ref{fig:Case4} pelo LED \textbf{$SLT_TRUE$}.
+Apesar disso, a lógica de SLT deve considerar o resultado da subtração e não apenas o overflow, garantindo que o resultado final seja correto (1) mesmo com overflow, mostrado na figura \ref{fig:Case4} pelo LED SLT-TRUE.
 Esse resultado é obtido pela operação: 
 \[
     SLT = OVERFLOW \oplus Result_{msb}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  8 JUN 2026 08:02
+This is pdfTeX, Version 3.141592653-2.6-1.40.28 (MiKTeX 25.12) (preloaded format=pdflatex 2026.1.22)  8 JUN 2026 20:02
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -130,7 +130,16 @@ LaTeX Info: Redefining \Relbar on input line 970.
 \mathdisplay@stack=\toks23
 LaTeX Info: Redefining \[ on input line 2950.
 LaTeX Info: Redefining \] on input line 2951.
-) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+ (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2024/12/31 v1.2e Enhanced LaTeX Graphics (DPC,SPQR)
  (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
@@ -319,49 +328,116 @@ Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
 Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 284.
 )
 \Hy@SectionHShift=\skip54
-) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
-File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count321
+) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/booktabs\booktabs.sty
+Package: booktabs 2020/01/12 v1.61803398 Publication quality tables
+\heavyrulewidth=\dimen177
+\lightrulewidth=\dimen178
+\cmidrulewidth=\dimen179
+\belowrulesep=\dimen180
+\belowbottomsep=\dimen181
+\aboverulesep=\dimen182
+\abovetopsep=\dimen183
+\cmidrulesep=\dimen184
+\cmidrulekern=\dimen185
+\defaultaddspace=\dimen186
+\@cmidla=\count321
+\@cmidlb=\count322
+\@aboverulesep=\dimen187
+\@belowrulesep=\dimen188
+\@thisruleclass=\count323
+\@lastruleclass=\count324
+\@thisrulewidth=\dimen189
+) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2025/09/25 v2.6n Tabular extension package (FMi)
+\col@sep=\dimen190
+\ar@mcellbox=\box59
+\extrarowheight=\dimen191
+\NC@list=\toks29
+\extratabsurround=\skip55
+\backup@length=\skip56
+\ar@cellbox=\box60
+) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2023/08/05 v3.6o Customizing captions (AR)
+ (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2023/07/31 v2.4d caption3 kernel (AR)
+\caption@tempdima=\dimen192
+\captionmargin=\dimen193
+\caption@leftmargin=\dimen194
+\caption@rightmargin=\dimen195
+\caption@width=\dimen196
+\caption@indent=\dimen197
+\caption@parindent=\dimen198
+\caption@hangindent=\dimen199
+Package caption Info: Standard document class detected.
 )
-No file report_aoc.aux.
+\c@caption@flags=\count325
+\c@continuedfloat=\count326
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/natbib\natbib.sty
+Package: natbib 2010/09/13 8.31b (PWD, AO)
+\bibhang=\skip57
+\bibsep=\skip58
+LaTeX Info: Redefining \cite on input line 694.
+\c@NAT@ctr=\count327
+) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/caption\subcaption.sty
+Package: subcaption 2023/07/28 v1.6b Sub-captions (AR)
+Package caption Info: New subtype `subfigure' on input line 238.
+\c@subfigure=\count328
+Package caption Info: New subtype `subtable' on input line 238.
+\c@subtable=\count329
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 27.
+ (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdftex.def
+File: l3backend-pdftex.def 2025-10-09 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count330
+) (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.aux
+Package babel Info: 'brazil' activates 'portuges' shorthands.
+(babel)             Reported on input line 8.
+)
 \openout1 = `report_aoc.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 20.
-LaTeX Font Info:    ... okay on input line 20.
-Package babel Info: 'brazil' activates 'portuges' shorthands.
-(babel)             Reported on input line 20.
-(C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 71.
+LaTeX Font Info:    ... okay on input line 71.
+ (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count322
-\scratchdimen=\dimen177
-\scratchbox=\box59
-\nofMPsegments=\count323
-\nofMParguments=\count324
-\everyMPshowfont=\toks29
-\MPscratchCnt=\count325
-\MPscratchDim=\dimen178
-\MPnumerator=\count326
-\makeMPintoPDFobject=\count327
-\everyMPtoPDFconversion=\toks30
+\scratchcounter=\count331
+\scratchdimen=\dimen256
+\scratchbox=\box61
+\nofMPsegments=\count332
+\nofMParguments=\count333
+\everyMPshowfont=\toks30
+\MPscratchCnt=\count334
+\MPscratchDim=\dimen257
+\MPnumerator=\count335
+\makeMPintoPDFobject=\count336
+\everyMPtoPDFconversion=\toks31
 ) (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+ (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/grfext\grfext.sty
+Package: grfext 2019/12/03 v1.3 Manage graphics extensions (HO)
+)
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPEG,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 504.
  (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -399,182 +475,116 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-\c@lstlisting=\count328
-Package hyperref Info: Link coloring OFF on input line 20.
+\c@lstlisting=\count337
+Package hyperref Info: Link coloring ON on input line 71.
+(c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.out) (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.out)
 \@outlinefile=\write3
 \openout3 = `report_aoc.out'.
 
-No file report_aoc.toc.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: End \AtBeginDocument code.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 74.
+ (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 74.
+ (C:\Users\maria\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) [1
+
+{C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}] (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.toc)
 \tf@toc=\write4
 \openout4 = `report_aoc.toc'.
 
-[1
+ [2]
+Overfull \hbox (5.08717pt too wide) in paragraph at lines 148--161
+ [][] 
+ []
 
-{C:/Users/maria/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:72: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.72 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+[3] [4] [5] [6]
+<media/ula.png, id=200, 533.74406pt x 478.78876pt>
+File: media/ula.png Graphic file (type png)
+<use media/ula.png>
+Package pdftex.def Info: media/ula.png  used on input line 233.
+(pdftex.def)             Requested size: 455.24411pt x 408.38237pt.
+<media/entradas.png, id=202, 362.85562pt x 158.09062pt>
+File: media/entradas.png Graphic file (type png)
+<use media/entradas.png>
+Package pdftex.def Info: media/entradas.png  used on input line 251.
+(pdftex.def)             Requested size: 204.85846pt x 89.25623pt.
+<media/seletor.png, id=203, 76.78688pt x 46.67438pt>
+File: media/seletor.png Graphic file (type png)
+<use media/seletor.png>
+Package pdftex.def Info: media/seletor.png  used on input line 255.
+(pdftex.def)             Requested size: 204.85846pt x 124.5304pt.
+<media/inverters.png, id=204, 184.43906pt x 146.04562pt>
+File: media/inverters.png Graphic file (type png)
+<use media/inverters.png>
+Package pdftex.def Info: media/inverters.png  used on input line 259.
+(pdftex.def)             Requested size: 204.85846pt x 162.21504pt.
+ [7 <./media/ula.png>]
+<media/saidas.png, id=212, 546.54187pt x 364.36125pt>
+File: media/saidas.png Graphic file (type png)
+<use media/saidas.png>
+Package pdftex.def Info: media/saidas.png  used on input line 276.
+(pdftex.def)             Requested size: 455.24411pt x 303.49834pt.
+ [8 <./media/entradas.png> <./media/seletor.png> <./media/inverters.png>]
+<media/case1.png, id=221, 537.50812pt x 481.04718pt>
+File: media/case1.png Graphic file (type png)
+<use media/case1.png>
+Package pdftex.def Info: media/case1.png  used on input line 307.
+(pdftex.def)             Requested size: 455.24411pt x 407.424pt.
+ [9 <./media/saidas.png>]
+<media/case2.png, id=229, 559.33969pt x 480.29437pt>
+File: media/case2.png Graphic file (type png)
+<use media/case2.png>
+Package pdftex.def Info: media/case2.png  used on input line 322.
+(pdftex.def)             Requested size: 455.24411pt x 390.9271pt.
+ [10 <./media/case1.png>]
+<media/case3.png, id=236, 557.08125pt x 477.28313pt>
+File: media/case3.png Graphic file (type png)
+<use media/case3.png>
+Package pdftex.def Info: media/case3.png  used on input line 337.
+(pdftex.def)             Requested size: 455.24411pt x 390.04195pt.
+ [11 <./media/case2.png>]
+<media/slt.png, id=244, 557.83406pt x 484.81125pt>
+File: media/slt.png Graphic file (type png)
+<use media/slt.png>
+Package pdftex.def Info: media/slt.png  used on input line 354.
+(pdftex.def)             Requested size: 455.24411pt x 395.66139pt.
+<media/slt2.png, id=245, 685.05937pt x 442.65375pt>
+File: media/slt2.png Graphic file (type png)
+<use media/slt2.png>
+Package pdftex.def Info: media/slt2.png  used on input line 355.
+(pdftex.def)             Requested size: 455.24411pt x 294.16516pt.
+ [12 <./media/case3.png>]
+Overfull \vbox (12.54346pt too high) has occurred while \output is active []
 
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:72: You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.72 \hline
-           
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
+ [13 <./media/slt.png> <./media/slt2.png>]
+Overfull \hbox (1.9139pt too wide) in paragraph at lines 367--378
+ [][] 
+ []
 
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:72: Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.72 \hline
-           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:72: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.72 \hline
-           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:73: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.73 AND &
-           Conjunção lógica bit a bit \
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:75: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.75 ADD &
-           Soma aritmética \
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:77: Extra alignment tab has been changed to \cr.
-<recently read> \endtemplate 
-                             
-l.77 NOR &
-           Negação da operação OR \
-You have given more \span or & marks than there were
-in the preamble to the \halign or \valign now in progress.
-So I'll assume that you meant to type \cr instead.
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:79: Misplaced \noalign.
-\hline ->\noalign 
-                  {\ifnum 0=`}\fi \hrule \@height \arrayrulewidth \futurelet...
-l.79 \hline
-           
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:79: You can't use `\hrule' here except with leaders.
-\hline ->\noalign {\ifnum 0=`}\fi \hrule 
-                                         \@height \arrayrulewidth \futurelet...
-l.79 \hline
-           
-To put a horizontal rule in an hbox or an alignment,
-you should use \leaders or \hrulefill (see The TeXbook).
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:79: Missing number, treated as zero.
-<to be read again> 
-                   \futurelet 
-l.79 \hline
-           
-A number should have been here; I inserted `0'.
-(If you can't figure out why I needed to see a number,
-look up `weird error' in the index to The TeXbook.)
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:79: Illegal unit of measure (pt inserted).
-<to be read again> 
-                   \futurelet 
-l.79 \hline
-           
-Dimensions can be in units of em, ex, in, pt, pc,
-cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
-I'll assume that you meant to say pt, for printer's points.
-To recover gracefully from this error, it's best to
-delete the erroneous units; e.g., type `2' to delete
-two letters. (See Chapter 27 of The TeXbook.)
-
-[2]
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:98: Missing $ inserted.
-<inserted text> 
-                $
-l.98 Overflow = (A_
-                   {31} = B_{31}) \land (Result_{31} \neq A_{31})
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:100: Missing $ inserted.
-<inserted text> 
-                $
-l.100 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:112: Missing $ inserted.
-<inserted text> 
-                $
-l.112 Overflow = Carry_
-                       {in} \oplus Carry_{out}
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-c:/Users/maria/OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA/Faculdade/ESDHC/CP/5S/AOC I/Computer Architecture and Organization/Assignment/final assingment/report/report_aoc.tex:114: Missing $ inserted.
-<inserted text> 
-                $
-l.114 
-      
-I've inserted a begin-math/end-math symbol since I think
-you left one out. Proceed, with fingers crossed.
-
-[3] [4] [5] (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.aux)
+(c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.bbl) [14] (c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.aux)
  ***********
 LaTeX2e <2025-11-01>
 L3 programming layer <2025-12-24>
  ***********
-
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-
-Package rerunfilecheck Warning: File `report_aoc.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `report_aoc.out':
-(rerunfilecheck)             Before: <no file>
-(rerunfilecheck)             After:  EDFBE7999BFD70C0AE8F544FDF68957C;2727.
+Package rerunfilecheck Info: File `report_aoc.out' has not changed.
+(rerunfilecheck)             Checksum: 03CAA435F4D5047826DCAB0CD1473881;4854.
  ) 
 Here is how much of TeX's memory you used:
- 12852 strings out of 467870
- 200419 string characters out of 5418355
- 642878 words of memory out of 5000000
- 41548 multiletter control sequences out of 15000+600000
- 639692 words of font info for 67 fonts, out of 8000000 for 9000
+ 15527 strings out of 467870
+ 247566 string characters out of 5418355
+ 682925 words of memory out of 5000000
+ 44151 multiletter control sequences out of 15000+600000
+ 644641 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,8n,79p,716b,555s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm2074.pk><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb>
-Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.pdf" (5 pages, 177657 bytes).
+ 75i,10n,79p,743b,541s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ectt1200.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm1200.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1200.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1728.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecti1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1095.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbi1440.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\maria\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1440.pk><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi12.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmmi8.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr8.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy10.pfb><C:/Users/maria/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on "c:\Users\maria\OneDrive - FUNDAÇÃO MOVIMENTO DIREITO E CIDADANIA\Faculdade\ESDHC\CP\5S\AOC I\Computer Architecture and Organization\Assignment\final assingment\report\build\report_aoc.pdf" (14 pages, 363579 bytes).
 PDF statistics:
- 434 PDF objects out of 1000 (max. 8388607)
- 41 named destinations out of 1000 (max. 500000)
- 1 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 717 PDF objects out of 1000 (max. 8388607)
+ 58 named destinations out of 1000 (max. 500000)
+ 283 words of extra memory for PDF output out of 10000 (max. 10000000)
 
